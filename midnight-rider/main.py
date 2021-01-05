@@ -8,13 +8,15 @@ import textwrap
 import time
 
 
-INTRODUCTION = """""""
+INTRODUCTION = """
 WELCOM TO MIDNIGHT
 
 WE'VE STOLRN A CAR. WE NEED TO GET IT HOME.
 THE CAR IS SPECIAL
 
 THAT'S WHY THE GOVERMENT WANTS IT.
+"""
+
 def main():
     pass
     for char in textwrap.dedent(INTRODUCTION):
